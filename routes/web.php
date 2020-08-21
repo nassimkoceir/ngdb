@@ -16,4 +16,6 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('jeanpierre', function() {
         return "Bonjour Jean-Pierre";
     });
+
+    Route::get('/admin', 'AdminController@index')->name('admin.home');
 });
