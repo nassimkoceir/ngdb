@@ -15,6 +15,7 @@
         "laravel/framework": "^7.24",
         "laravel/socialite": "^4.4",
         "laravel/tinker": "^2.0",
+        "laravel/ui": "^2.1",
         "socialiteproviders/twitch": "^5.2"
     },
     "require-dev": {
