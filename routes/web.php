@@ -17,5 +17,4 @@ Route::group(['middleware' => 'auth'], function() {
         return "Bonjour Jean-Pierre";
     });
 
-    Route::get('/admin', 'AdminController@index')->name('admin.home');
 });
