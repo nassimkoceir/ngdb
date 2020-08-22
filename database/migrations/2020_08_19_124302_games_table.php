@@ -18,6 +18,8 @@ class GamesTable extends Migration
             $table->string('igdb_id');
             $table->string('name');
             $table->string('img');
+            $table->string('plateform');
+            $table->string('url');
             $table->boolean('new');
             $table->boolean('coop');
             $table->string('mate');
